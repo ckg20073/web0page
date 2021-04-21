@@ -1,4 +1,12 @@
-*{
-    border: solid 1px red
+header{
+    background-color: cadetblue;
 }
-   
+nav{
+    background-color: aqua
+}
+section{
+    background-color: royalblue;
+}
+footer{
+    background-color: red;
+}
