@@ -3,7 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <script>
-
+            function showPage2(){
+                item=document.getElementById("page1")
+                item.style.display="none"
+                item=document.getElementById("page2")
+                item.style.display="block"
+            }
         </script>
        <link rel="stylesheet" href="css/style.css">
     </head>
@@ -12,12 +17,12 @@
             <h1>坂本ポートフォリオ</h1>
         </header>
         <nav>
-            <ur>
+            <ul>
                 <li>WEBデザイン</li>
-                <li>MOS Excel</li>
-            </ur>
+                <li onclick="showPage2()">MOS Excel</li>
+            </ul>
         </nav>
-        <section>
+        <section id="page1">
             <h1>WEBデザイン</h1>
             <p>
                 WEB上のデザインをHTMLとCSSを使って学びました。
@@ -25,7 +30,7 @@
             </p>      
             <p><a href="0114/index.html">制作物のリンク</a></p> 
         </section>
-        <section>
+        <section id="page2">
             <h1>MOS Excel</h1>
             <p>
                 表計算や関数、グラフなどの各分野をExcelを使って学びました。
