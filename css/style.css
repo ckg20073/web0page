@@ -1,4 +1,4 @@
-                   *{
+*{
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@ nav{
 section{
     float: left;
     widows: 795px;
-    background-color: royalblue;
+    background-color: green;
 }
 footer{
     width: 1000px;
