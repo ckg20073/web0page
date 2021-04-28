@@ -6,12 +6,12 @@ header,section,nav,footer{
     display: block;
 }
 body{
-    background-color: yellowgreen;
+    background-color: lightblue;
 }
 header{
     width: 1000px;
     height: 60px;
-    background-color: cadetblue;
+    background-color: lightgreen;
 }
 nav{
     float: left;
@@ -21,7 +21,7 @@ nav{
 section{
     float: left;
     widows: 795px;
-    background-color: green;
+    background-color: lightseagreen;
 }
 footer{
     width: 1000px;
